@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
-import { GoBackComponent } from './goback/goback.component';
+import { GoBackComponent } from './go-back/go-back.component';
+import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-background',
-  imports: [GoBackComponent],
+  imports: [GoBackComponent, RouterOutlet],
   templateUrl: './background.component.html',
   styleUrl: './background.component.css',
   standalone: true,
 })
-export class BackgroundComponent {}
+export default class BackgroundComponent {}
