@@ -4,7 +4,7 @@ export const routes: Routes = [
   {
     path: '',
     loadComponent: () =>
-      import('./core/layout/background/background.component'),
+      import('./core/background/background.component'),
     children: [
       {
         path: '',
