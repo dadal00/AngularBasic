@@ -5,17 +5,23 @@
   margin-left: 5vw;
   margin-top: 4vh;
 }
-.back-button {
+.back-icon {
   width: 1.5vw;
   height: 3vh;
   background-color: #888888;
   border: none;
 }
-.back-button:active {
+.back-button {
+  display: flex;
+  flex-direction: row;
+}
+.back-container:active {
   opacity: 0.6;
 }
 .back-text {
+  font-size: 1rem;
   margin-left: 1vw;
   font-weight: bold;
   color: #888888;
+  user-select: none;
 }
