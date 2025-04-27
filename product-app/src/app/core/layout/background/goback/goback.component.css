@@ -1,0 +1,21 @@
+.back-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 5vw;
+  margin-top: 4vh;
+}
+.back-button {
+  width: 1.5vw;
+  height: 3vh;
+  background-color: #888888;
+  border: none;
+}
+.back-button:active {
+  opacity: 0.6;
+}
+.back-text {
+  margin-left: 1vw;
+  font-weight: bold;
+  color: #888888;
+}
