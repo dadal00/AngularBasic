@@ -1,0 +1,29 @@
+[
+  {
+    "id": "77270361-068d-4055-a5aa-4bd1737ef887",
+    "name": "product 1",
+    "price": 34,
+    "description_short": "Fertilizer class A made for spring time use",
+    "received": "10/24/25",
+    "expires": "10/30/25",
+    "description_long": "This was first conceived by the John Deere corporation. We obtained this the tractors."
+  },
+  {
+    "id": "0b5c8f62-86a6-4232-9f04-991b17ee3468",
+    "name": "product 2",
+    "price": 3344,
+    "description_short": "Winter Coat",
+    "received": "10/24/25",
+    "expires": "10/30/25",
+    "description_long": "This was first conceived by the John Deere corporation. We obtained this the tractors."
+  },
+  {
+    "id": "b11755c0-e3b4-4783-8b85-4c87544f037a",
+    "name": "product 3",
+    "price": 134,
+    "description_short": "Sprinkler",
+    "received": "10/14/25",
+    "expires": "10/30/25",
+    "description_long": "This was first conceived by the John Deere corporation. We obtained this the tractors."
+  }
+]
