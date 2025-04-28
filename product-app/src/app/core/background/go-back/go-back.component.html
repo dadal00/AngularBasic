@@ -1,4 +1,8 @@
-<div class="back-container">
+<div
+  class="back-container"
+  (click)="goBack()"
+  [style.opacity]="currentPath === '/' ? '0.4' : '1'"
+>
   <div class="back-icon"></div>
   <p class="back-text">Back</p>
 </div>
