@@ -6,19 +6,19 @@ import { ProductDetailComponent } from './features/products/components/product-d
 export const routes: Routes = [
   {
     path: '',
-    component: HomeComponent
+    component: HomeComponent,
   },
   {
     path: 'products',
     children: [
       {
         path: '',
-        component: ProductListComponent
+        component: ProductListComponent,
       },
       {
         path: ':id',
-        component: ProductDetailComponent
-      }
-    ]
+        component: ProductDetailComponent,
+      },
+    ],
   },
 ];

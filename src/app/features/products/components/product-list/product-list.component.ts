@@ -12,7 +12,7 @@ import { CommonModule } from '@angular/common';
   templateUrl: './product-list.component.html',
   styleUrls: [
     './product-list.component.css',
-    '../../styles/products-shared.css'
+    '../../styles/products-shared.css',
   ],
   standalone: true,
 })

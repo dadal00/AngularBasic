@@ -10,8 +10,8 @@ import { Subscription } from 'rxjs';
   templateUrl: './product-detail.component.html',
   styleUrls: [
     './product-detail.component.css',
-    '../../styles/products-shared.css'
-  ]
+    '../../styles/products-shared.css',
+  ],
 })
 export class ProductDetailComponent implements OnInit {
   id!: string;
@@ -27,7 +27,7 @@ export class ProductDetailComponent implements OnInit {
     this.id = String(this.route.snapshot.paramMap.get('id'));
     this.subscription.add(
       this.productService.getProducts().subscribe((data) => {
-        this.product = data.find(p => p.id === this.id);
+        this.product = data.find((p) => p.id === this.id);
       }),
     );
   }

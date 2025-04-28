@@ -1,13 +1,13 @@
 .product-details-container {
-    align-items: center;
+  align-items: center;
 }
 .product-details-title {
-    margin-bottom: 7vh;
+  margin-bottom: 7vh;
 }
 .product-details-subheader {
-    margin-bottom: 0vh;
+  margin-bottom: 0vh;
 }
 .product-details-description {
-    margin-top: 9vh;
-    margin-bottom: -1vh;
+  margin-top: 9vh;
+  margin-bottom: -1vh;
 }

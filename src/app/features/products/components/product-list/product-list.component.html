@@ -9,13 +9,12 @@
       </tr>
     </thead>
     <tbody>
-      <tr  
+      <tr
         product-card
-        *ngFor="let product of products" 
-        [product]="product" 
+        *ngFor="let product of products"
+        [product]="product"
         (clicked)="toProduct($event)"
-      >
-      </tr>
+      ></tr>
     </tbody>
   </table>
 </div>
