@@ -1,5 +1,5 @@
 .home-container {
-  width: 18vw;
+  width: min(18vw, 60vh);
   margin-top: 25vh;
   aspect-ratio: 2.2;
   align-self: center;
