@@ -1,1 +1,8 @@
-<p>product-detail works!</p>
+<div class="product-container product-details-container">
+    <h1 class="product-title product-details-title">{{product?.name}}</h1>
+    <p class="subheader product-details-subheader">Price (USD): {{product?.price}}</p>
+    <p class="subheader product-details-subheader">Received: {{product?.received}}</p>
+    <p class="subheader product-details-subheader">Expires: {{product?.expires}}</p>
+    <p class="subheader product-details-description">Description</p>
+    <p class="product-text">{{product?.description_long}}</p>
+</div>
