@@ -6,6 +6,7 @@ import { Router } from '@angular/router';
   imports: [],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css',
+  standalone: true,
 })
 export default class HomeComponent {
   constructor(private router: Router) {}

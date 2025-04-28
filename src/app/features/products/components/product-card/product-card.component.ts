@@ -9,6 +9,7 @@ import { Product } from '../../models/product.model';
     './product-card.component.css',
     '../../styles/products-shared.css',
   ],
+  standalone: true,
 })
 export class ProductCardComponent {
   @Input() product!: Product;

@@ -12,6 +12,7 @@ import { Subscription } from 'rxjs';
     './product-detail.component.css',
     '../../styles/products-shared.css',
   ],
+  standalone: true,
 })
 export class ProductDetailComponent implements OnInit {
   id!: string;
