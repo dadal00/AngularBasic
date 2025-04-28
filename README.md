@@ -1,6 +1,6 @@
 # ProductApp
 
-(Assuming angular CLI already installed)
+(Assuming npm is installed)
 
 To run:
 
