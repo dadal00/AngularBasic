@@ -1,6 +1,6 @@
 <div class="product-list-container">
   <h1 class="product-title">Products</h1>
-  <table>
+  <table class="product-table">
     <thead>
       <tr>
         <th class="column-title name-column">Name</th>
@@ -9,10 +9,12 @@
       </tr>
     </thead>
     <tbody>
-      <tr *ngFor="let product of products">
-        <td>{{product.name}}</td>
-        <td>{{product.price}}</td>
-        <td>{{product.description_short}}</td>
+      <tr  
+        product-card
+        *ngFor="let product of products" 
+        [product]="product" 
+        (clicked)="toProduct($event)"
+      >
       </tr>
     </tbody>
   </table>
