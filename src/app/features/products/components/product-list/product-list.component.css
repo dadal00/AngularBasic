@@ -6,20 +6,17 @@
   flex-direction: column;
 }
 .product-title {
-  font-size: 4rem;
+  font-size: 7vh;
   font-weight: 600;
   margin-bottom: 3vh;
 }
 .name-column {
-  background-color: blue;
   width: 12.5vw;
 }
 .product-column {
-  background-color: pink;
   width: 19vw;
 }
 .column-title {
-  font-size: 2rem;
+  font-size: 3.5vh;
   text-align: left;
-  font-weight: 600;
 }
