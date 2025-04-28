@@ -5,6 +5,7 @@
 To run:
 
 ```bash
+npm install
 ng serve
 ```
 
