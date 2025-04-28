@@ -1,19 +1,14 @@
 import { Routes } from '@angular/router';
+import HomeComponent from './features/home/home.component';
+import ProductListComponent from './features/products/components/product-list/product-list.component';
 
 export const routes: Routes = [
   {
     path: '',
-    loadComponent: () => import('./core/background/background.component'),
-    children: [
-      {
-        path: '',
-        loadComponent: () => import('./features/home/home.component'),
-      },
-      {
-        path: 'products',
-        loadComponent: () =>
-          import('./features/products/product-list/product-list.component'),
-      },
-    ],
+    component: HomeComponent
+  },
+  {
+    path: 'products',
+    component: ProductListComponent,
   },
 ];
