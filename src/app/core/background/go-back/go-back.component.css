@@ -4,6 +4,7 @@
   align-items: center;
   margin-left: 5vw;
   margin-top: 4vh;
+  width: fit-content;
 }
 .back-icon {
   width: 1.5vw;
@@ -16,8 +17,8 @@
   flex-direction: row;
 }
 .back-text {
-  font-size: 1rem;
-  margin-left: 1vw;
+  font-size: 1.25rem;
+  margin-left: 1.2vw;
   font-weight: bold;
   color: #888888;
   user-select: none;

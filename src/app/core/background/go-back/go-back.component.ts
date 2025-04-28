@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'goback-button',
+  selector: 'go-back-button',
   imports: [],
   templateUrl: './go-back.component.html',
   styleUrl: './go-back.component.css',
