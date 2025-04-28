@@ -1,0 +1,25 @@
+.product-list-container {
+  margin-left: 5vw;
+  margin-right: 5vw;
+  color: #5e5757;
+  display: flex;
+  flex-direction: column;
+}
+.product-title {
+  font-size: 4rem;
+  font-weight: 600;
+  margin-bottom: 3vh;
+}
+.name-column {
+  background-color: blue;
+  width: 12.5vw;
+}
+.product-column {
+  background-color: pink;
+  width: 19vw;
+}
+.column-title {
+  font-size: 2rem;
+  text-align: left;
+  font-weight: 600;
+}
