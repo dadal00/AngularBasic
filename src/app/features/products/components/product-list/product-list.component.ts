@@ -10,7 +10,10 @@ import { CommonModule } from '@angular/common';
   selector: 'product-list',
   imports: [CommonModule, ProductCardComponent],
   templateUrl: './product-list.component.html',
-  styleUrl: './product-list.component.css',
+  styleUrls: [
+    './product-list.component.css',
+    '../../styles/products-shared.css'
+  ],
   standalone: true,
 })
 export default class ProductListComponent implements OnInit, OnDestroy {

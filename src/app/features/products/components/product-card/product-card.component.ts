@@ -5,7 +5,10 @@ import { Product } from '../../models/product.model';
   selector: '[product-card]',
   imports: [],
   templateUrl: './product-card.component.html',
-  styleUrl: './product-card.component.css',
+  styleUrls: [
+    './product-card.component.css',
+    '../../styles/products-shared.css'
+  ]
 })
 export class ProductCardComponent {
   @Input() product!: Product;
